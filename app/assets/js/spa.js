@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var navLink = $('#nav .nav-link'), // Links que fazer a requisição
+  var navLink = $('.ajax-link'), // Links que fazer a requisição
       content = '#content', //Conteudo que é requisitado
       main = $('#main'); //Conteiner que recebe o conteudo
 
